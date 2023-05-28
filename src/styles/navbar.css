@@ -39,6 +39,7 @@
 }
 
 .logoTextDot {
+    display: inline;
     color: #FF7426;
 }
 

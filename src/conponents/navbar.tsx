@@ -22,9 +22,6 @@ export const Navbar = () => {
           <a href="/">About us</a>
         </div>
         <div className="socialMediaIconWrapper">
-          <div className="hamburgerMenu">
-            <img src={hamburgerIcon} className="hamburgerIcon"></img>
-          </div>
           <a href="/">
             <img src={facebookIcon} className="socialMediaIcon" />
           </a>
@@ -34,6 +31,9 @@ export const Navbar = () => {
           <a href="/">
             <img src={igIcon} className="socialMediaIcon" />
           </a>
+          <div className="hamburgerMenu">
+            <img src={hamburgerIcon} className="hamburgerIcon"></img>
+          </div>
         </div>
       </div>
     </div>

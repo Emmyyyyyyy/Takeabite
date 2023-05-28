@@ -1,0 +1,142 @@
+p {
+    margin: 0;
+}
+
+span {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    display: inline-block;
+}
+
+.carouselWrapper {
+    max-width: 1920px;
+    height: 640px;
+    /* background: red; */
+    margin-top: 40px;
+    padding: 0 80px;
+}
+
+.carouselMain {
+    max-width: 1280px;
+    border-radius: 50px;
+    height: 640px;
+    background: #E7FAFE;
+    display: flex;
+    overflow: hidden;
+    /* padding: 50px 0 50px 50px; */
+}
+
+.carouselTextArea {
+    box-sizing: border-box;
+    width: 620px;
+    height: 100%;
+    padding: 50px;
+}
+
+.topicTag {
+    background: white;
+    font-weight: 600;
+    width: fit-content;
+    padding: 11px 20px 10px 20px;
+    border-radius: 30px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-size: 14px;
+}
+
+.foodName {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.foodDescription {
+    color: #00000099;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.foodMoreInfo {
+    display: flex;
+    color: #00000099;
+    gap: 10px;
+    margin-bottom: 104px;
+}
+
+.cookingTime {
+    background: #0000000D;
+    padding: 8px 16px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.foodCatagory {
+    background: #0000000D;
+    padding: 8px 16px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.carouselFooter {
+    display: flex;
+}
+
+.authorInfo {
+    display: flex;
+    gap: 16px;
+    white-space: nowrap;
+}
+
+.profileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.authorName {
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.publishDate {
+    font-size: 14px;
+}
+
+.viewRecipeBtn {
+    width: fit-content;
+    border-radius: 16px;
+    padding: 18px 36px 18px 37px;
+    margin-left: auto;
+    background: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.foodImageWrapper {
+    overflow: hidden;
+    width: 660px;
+    height: auto;
+    background: yellow;
+}
+
+.foodImage {
+    width: 100%;
+    height: 100%;
+}
