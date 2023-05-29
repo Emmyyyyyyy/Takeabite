@@ -48,6 +48,7 @@ span {
     align-items: center;
     gap: 13px;
     font-size: 14px;
+    filter: drop-shadow(10px 20px 40px rgba(41, 64, 70, 0.1));
 }
 
 .foodName {
@@ -133,7 +134,6 @@ span {
     overflow: hidden;
     width: 660px;
     height: auto;
-    background: yellow;
 }
 
 .foodImage {

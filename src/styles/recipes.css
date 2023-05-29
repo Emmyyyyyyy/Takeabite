@@ -1,0 +1,144 @@
+.recipesWeapper {
+    max-width: 1940px;
+    height: 1616px;
+    padding: 0 80px;
+    margin-top: 183px;
+}
+
+.recipesContainer {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.recipesContainerHeader {
+    width: fit-content;
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0 auto 24px auto;
+}
+
+.recipesContainerSubHeader {
+    margin: 0 auto 96px auto;
+    text-align: center;
+    color: #00000099;
+    width: 706px;
+    line-height: 28px;
+}
+
+.recipesList {
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-auto-rows: 434px;
+    grid-template-columns: repeat(3, 400px);
+    gap: 40px;
+}
+
+.recipeCard {
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    padding: 16px;
+}
+
+.imageArea {
+    position: relative;
+}
+
+.likeIconWrapper {
+    position: absolute;
+    background: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.recipeImage {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.recipeInfo {
+    padding: 24px 8px 16px 8px;
+}
+
+.recipeName {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    margin-bottom: 24px;
+}
+
+.recipeIcon {
+    background: none;
+}
+
+.ads {
+    background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+    border-radius: 0;
+    grid-column: 3;
+    grid-row: 2;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.adsbg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    z-index: -2;
+}
+
+.adsImg {
+    position: absolute;
+    width: 354px;
+    height: 336px;
+    top: 98px;
+    left: 22px;
+}
+
+.adsHeader {
+    width: 172px;
+    text-align: center;
+    font-family: 'Lobster';
+    color: white;
+    font-size: 24px;
+    margin: 40px auto 0 auto;
+}
+
+.adsWebsite {
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF99;
+    width: fit-content;
+    margin: 285px auto 0 auto;
+}
+
+.recipeInfo > .foodMoreInfo {
+    margin: 0;
+    gap: 24px;
+}
+
+.recipeInfo > .foodMoreInfo > .cookingTime {
+    background: none;
+    padding: 0;
+}
+
+.recipeInfo > .foodMoreInfo > .foodCatagory {
+    background: none;
+    padding: 0;
+}
