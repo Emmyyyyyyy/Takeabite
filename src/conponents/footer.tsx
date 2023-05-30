@@ -1,9 +1,9 @@
-import "../styles/footer.css";
+import '../styles/footer.css';
 
-import facebookIcon from "../images/facebook-app-symbol.png";
-import twitterIcon from "../images/twitter.png";
-import igIcon from "../images/instagram.png";
-import hamburgerIcon from "../images/more.png";
+import facebookIcon from '../images/facebook-app-symbol.png';
+import twitterIcon from '../images/twitter.png';
+import igIcon from '../images/instagram.png';
+import hamburgerIcon from '../images/more.png';
 
 export const Footer = () => {
   return (

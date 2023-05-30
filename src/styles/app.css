@@ -3,3 +3,7 @@
     height: 100vh;
     /* background: red; */
 }
+
+img {
+    display: block;
+} 

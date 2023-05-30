@@ -78,6 +78,7 @@ span {
     align-items: center;
     gap: 10px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .foodCatagory {
@@ -88,6 +89,7 @@ span {
     align-items: center;
     gap: 10px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .carouselFooter {
@@ -113,6 +115,7 @@ span {
 
 .publishDate {
     font-size: 14px;
+    font-weight: 500;
 }
 
 .viewRecipeBtn {

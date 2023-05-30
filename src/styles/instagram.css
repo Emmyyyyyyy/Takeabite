@@ -1,0 +1,65 @@
+.instagramWrapper {
+    max-width: 1920px;
+    height: 964px;
+    margin-top: 160px;
+    padding: 0 80px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+.instagramContainer {
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.instagramTextArea {
+    margin: 0 auto 80px auto;
+    width: 840px;
+    text-align: center;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58.09px;
+    letter-spacing: -0.04em;
+    margin-bottom: 24px;
+}
+
+.subheader {
+    line-height: 28px;
+    color: #00000099;
+}
+
+.instagramPostArea {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 445.44px;
+    grid-template-columns: repeat(4, 290px);
+    gap: 40px;
+}
+
+.instagramPost {
+    background: white;
+}
+
+.visitInstagramBtn {
+    display: flex;
+    color: white;
+    width: fit-content;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    background: #000000;
+    padding: 21px 32px 22px 32px;
+    cursor: pointer;
+    gap: 17px;
+    align-items: center;
+    margin: 80.56px auto 0 auto;
+}
+
+.igPostImage {
+    width: 100%;
+}

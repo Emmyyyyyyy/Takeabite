@@ -1,0 +1,73 @@
+.subscribeCardWrapper {
+    max-width: 1920px;
+    height: 442px;
+    margin-top: 160px;
+    padding: 0 80px;
+}
+
+.subscribeCardContainer {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #E7F9FD;
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.subscribeCardTextArea {
+    width: 620px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.subscribeCardTextArea > .subheader {
+    margin-bottom: 64px;
+}
+
+.emailInputWrapper {
+    width: 480px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.emailInputWrapper > input {
+    height: 100%;
+    width: 100%;
+    border-radius: 24px;
+    padding-left: 32px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.subscribeCardBg1 {
+    position: absolute;
+    width: 409.54px;
+    height: 400.08px;
+    top: 142.07px;
+    left: -104px;
+    transform: rotate(30deg);
+}
+
+.subscribeCardBg2 {
+    position: absolute;
+    width: 470px;
+    height: 355.62px;
+    top: 216px;
+    right: -120px;
+}
+
+.subscribeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: black;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 21px 46px 22px 47px;
+    border-radius: 16px;
+    cursor: pointer;
+}
