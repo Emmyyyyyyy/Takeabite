@@ -1,9 +1,12 @@
-import '../styles/navbar.css';
+import '../../styles/HomeStyles/navbar.css';
 
-import facebookIcon from '../images/facebook-app-symbol.png';
-import twitterIcon from '../images/twitter.png';
-import igIcon from '../images/instagram.png';
-import hamburgerIcon from '../images/more.png';
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+import facebookIcon from '../../images/facebook-app-symbol.png';
+import twitterIcon from '../../images/twitter.png';
+import igIcon from '../../images/instagram.png';
+import hamburgerIcon from '../../images/more.png';
 
 export const Navbar = () => {
   return (
@@ -15,9 +18,9 @@ export const Navbar = () => {
           </p>
         </div>
         <div className="navigatorWrapper">
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
           <a href="/">Recipes</a>
-          <a href="/">Blog</a>
+          <Link to="/blog">Blog</Link>
           <a href="/">Contact</a>
           <a href="/">About us</a>
         </div>

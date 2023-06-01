@@ -1,11 +1,13 @@
-import '../styles/carousel.css';
+import '../../styles/HomeStyles/carousel.css';
 
-import foodImage from '../images/Mask Group.jpg';
-import foodTag from '../images/image 14.png';
-import timerIcon from '../images/Timer.png';
-import foodCatagoryIcon from '../images/ForkKnife.png';
-import profileImg from '../images/Ellipse 2.png';
-import viewRecipeIcon from '../images/PlayCircle.png';
+import React from 'react';
+
+import foodImage from '../../images/Mask Group.jpg';
+import foodTag from '../../images/image 14.png';
+import timerIcon from '../../images/Timer.png';
+import foodCatagoryIcon from '../../images/ForkKnife.png';
+import profileImg from '../../images/Ellipse 2.png';
+import viewRecipeIcon from '../../images/PlayCircle.png';
 
 export const Carousel = () => {
   return (

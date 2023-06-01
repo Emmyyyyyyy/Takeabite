@@ -1,9 +1,11 @@
-import '../styles/moreRecipes.css';
+import '../../styles/HomeStyles/moreRecipes.css';
 
-import foodImage from '../images/image 26.png';
-import timerIcon from '../images/Timer.png';
-import foodCatagoryIcon from '../images/ForkKnife.png';
-import likeIcon from '../images/like.png';
+import React from 'react';
+
+import foodImage from '../../images/image 26.png';
+import timerIcon from '../../images/Timer.png';
+import foodCatagoryIcon from '../../images/ForkKnife.png';
+import likeIcon from '../../images/like.png';
 // import afterLikeIcon from '../images/afterLike.png';
 
 export const MoreRecipes = () => {

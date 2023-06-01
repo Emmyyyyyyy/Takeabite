@@ -1,7 +1,9 @@
-import '../styles/subscribeCard.css';
+import '../../styles/HomeStyles/subscribeCard.css';
 
-import bgImg1 from '../images/kisspng-salad-salad-fresh-food-healthylife-vegetables-vegetarian-5d42e3a7cb8543 1.png';
-import bgImg2 from '../images/Photo.png';
+import React from 'react';
+
+import bgImg1 from '../../images/kisspng-salad-salad-fresh-food-healthylife-vegetables-vegetarian-5d42e3a7cb8543 1.png';
+import bgImg2 from '../../images/Photo.png';
 
 export const SubscribeCard = () => {
   return (
@@ -15,9 +17,9 @@ export const SubscribeCard = () => {
             Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqut enim ad minim{' '}
           </p>
-          <div className="emailInputWrapper">
+          <div className="inputWrapper">
             <input placeholder="Your email address..."></input>
-            <div className="subscribeBtn">Subscribe</div>
+            <div className="inputBtn">Subscribe</div>
           </div>
         </div>
       </div>

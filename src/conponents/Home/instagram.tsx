@@ -1,9 +1,11 @@
-import '../styles/instagram.css';
+import '../../styles/HomeStyles/instagram.css';
 
-import igIcon from '../images/004-instagram.png';
-import topIg from '../images/Top.png';
-import postIg from '../images/Rectangle.png';
-import captionIg from '../images/Bottom.png';
+import React from 'react';
+
+import igIcon from '../../images/004-instagram.png';
+import topIg from '../../images/Top.png';
+import postIg from '../../images/Rectangle.png';
+import captionIg from '../../images/Bottom.png';
 
 export const Instagram = () => {
   return (

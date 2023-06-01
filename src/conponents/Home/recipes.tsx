@@ -1,11 +1,13 @@
-import '../styles/recipes.css';
+import '../../styles/HomeStyles/recipes.css';
 
-import foodImage from '../images/image 26.png';
-import timerIcon from '../images/Timer.png';
-import foodCatagoryIcon from '../images/ForkKnife.png';
-import adsBg from '../images/Star 1.png';
-import adsImage from '../images/01.png';
-import likeIcon from '../images/like.png';
+import React from 'react';
+
+import foodImage from '../../images/image 26.png';
+import timerIcon from '../../images/Timer.png';
+import foodCatagoryIcon from '../../images/ForkKnife.png';
+import adsBg from '../../images/Star 1.png';
+import adsImage from '../../images/01.png';
+import likeIcon from '../../images/like.png';
 // import afterLikeIcon from '../images/afterLike.png';
 
 export const Recipes = () => {

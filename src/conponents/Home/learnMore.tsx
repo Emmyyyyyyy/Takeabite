@@ -1,10 +1,12 @@
-import '../styles/learnMore.css';
+import '../../styles/HomeStyles/learnMore.css';
 
-import tomatoImg from '../images/image 27.png';
-import meatImg from '../images/image 21.png';
-import onionImg from '../images/image 28.png';
-import vegetableImg from '../images/image 20.png';
-import chefImag from '../images/portrait-happy-male-chef-dressed-uniform 1.png';
+import React from 'react';
+
+import tomatoImg from '../../images/image 27.png';
+import meatImg from '../../images/image 21.png';
+import onionImg from '../../images/image 28.png';
+import vegetableImg from '../../images/image 20.png';
+import chefImag from '../../images/portrait-happy-male-chef-dressed-uniform 1.png';
 
 export const LearnMore = () => {
   return (

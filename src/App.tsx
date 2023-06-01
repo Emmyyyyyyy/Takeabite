@@ -1,25 +1,17 @@
-import { Navbar } from './conponents/navbar';
-import { Carousel } from './conponents/carousel';
-import { Recipes } from './conponents/recipes';
-import { LearnMore } from './conponents/learnMore';
-import { Instagram } from './conponents/instagram';
-import { MoreRecipes } from './conponents/moreRecipes';
-import { SubscribeCard } from './conponents/subscribeCard';
-import { Footer } from './conponents/footer';
+import { Home } from './pages/Home';
+import { Blog } from './pages/Blog';
 
-import './styles/app.css';
+import { Routes, Route } from 'react-router-dom';
+
+import './styles/HomeStyles/app.css';
 
 function App() {
   return (
     <div className="appWrapper">
-      <Navbar />
-      <Carousel />
-      <Recipes />
-      <LearnMore />
-      <Instagram />
-      <MoreRecipes />
-      <SubscribeCard />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="blog" element={<Blog />} />
+      </Routes>
     </div>
   );
 }
