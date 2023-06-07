@@ -10,7 +10,7 @@ export const Header = () => {
           eiusmod tempor incididunt ut labore et dolore
         </p>
         <div className="inputWrapper">
-          <input placeholder="Your email address..."></input>
+          <input placeholder="Search article, news or recipe..."></input>
           <div className="inputBtn">Search</div>
         </div>
       </div>

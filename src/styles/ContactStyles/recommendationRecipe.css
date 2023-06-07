@@ -1,0 +1,17 @@
+.recommendationRecipeWrapper {
+    max-width: 1920px;
+    height: 440px;
+    margin-top: 160px;
+    padding: 0 80px;
+}
+
+.recommendationRecipeContainer {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.recommendationRecipeContainer > h3 {
+    width: fit-content;
+    margin: 0 auto 80px auto;
+}

@@ -7,3 +7,16 @@
 img {
     display: block;
 } 
+
+h3 {
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.04em;
+}

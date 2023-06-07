@@ -21,7 +21,7 @@ export const Navbar = () => {
           <Link to="/">Home</Link>
           <a href="/">Recipes</a>
           <Link to="/blog">Blog</Link>
-          <a href="/">Contact</a>
+          <a href="/contact">Contact</a>
           <a href="/">About us</a>
         </div>
         <div className="socialMediaIconWrapper">
