@@ -13,7 +13,9 @@ export const BlogList = () => {
           <div className="blog">
             <img src={foodImage} className="foodImage"></img>
             <div className="blogTextArea">
-              <p className="recipeName">Crochet Projects for Noodle Lovers</p>
+              <a href="/blogPost" className="recipeName">
+                Crochet Projects for Noodle Lovers
+              </a>
               <p className="recipesContainerSubHeader">
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim.
@@ -29,7 +31,9 @@ export const BlogList = () => {
           <div className="blog">
             <img src={foodImage} className="foodImage"></img>
             <div className="blogTextArea">
-              <p className="recipeName">Crochet Projects for Noodle Lovers</p>
+              <a href="/blogPost" className="recipeName">
+                Crochet Projects for Noodle Lovers
+              </a>
               <p className="recipesContainerSubHeader">
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim.
@@ -45,7 +49,9 @@ export const BlogList = () => {
           <div className="blog">
             <img src={foodImage} className="foodImage"></img>
             <div className="blogTextArea">
-              <p className="recipeName">Crochet Projects for Noodle Lovers</p>
+              <a href="/blogPost" className="recipeName">
+                Crochet Projects for Noodle Lovers
+              </a>
               <p className="recipesContainerSubHeader">
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim.
@@ -61,7 +67,9 @@ export const BlogList = () => {
           <div className="blog">
             <img src={foodImage} className="foodImage"></img>
             <div className="blogTextArea">
-              <p className="recipeName">Crochet Projects for Noodle Lovers</p>
+              <a href="/blogPost" className="recipeName">
+                Crochet Projects for Noodle Lovers
+              </a>
               <p className="recipesContainerSubHeader">
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim.
@@ -77,7 +85,9 @@ export const BlogList = () => {
           <div className="blog">
             <img src={foodImage} className="foodImage"></img>
             <div className="blogTextArea">
-              <p className="recipeName">Crochet Projects for Noodle Lovers</p>
+              <a href="/blogPost" className="recipeName">
+                Crochet Projects for Noodle Lovers
+              </a>
               <p className="recipesContainerSubHeader">
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim.
@@ -93,7 +103,9 @@ export const BlogList = () => {
           <div className="blog">
             <img src={foodImage} className="foodImage"></img>
             <div className="blogTextArea">
-              <p className="recipeName">Crochet Projects for Noodle Lovers</p>
+              <a href="/blogPost" className="recipeName">
+                Crochet Projects for Noodle Lovers
+              </a>
               <p className="recipesContainerSubHeader">
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqut enim.

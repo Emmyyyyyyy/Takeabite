@@ -20,7 +20,7 @@ export const Carousel = () => {
             </span>
             Hot Recipes
           </p>
-          <p className="foodName">Spicy delicious chicken wings</p>
+          <h1 className="foodName">Spicy delicious chicken wings</h1>
           <p className="foodDescription">
             Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqut enim ad minim.
