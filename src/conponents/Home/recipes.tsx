@@ -20,222 +20,238 @@ export const Recipes = () => {
           tempor incididunt ut labore et dolore magna aliqut enim ad minim.
         </p>
         <div className="recipesList">
-          <div className="recipeCard">
-            <div className="imageArea">
-              <img src={foodImage} className="recipeImage"></img>
-              <div className="likeIconWrapper">
-                <img src={likeIcon}></img>
+          <a href="/recipeDetail">
+            <div className="recipeCard">
+              <div className="imageArea">
+                <img src={foodImage} className="recipeImage"></img>
+                <div className="likeIconWrapper">
+                  <img src={likeIcon}></img>
+                </div>
+              </div>
+              <div className="recipeInfo">
+                <p className="recipeName">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+                <div className="foodMoreInfo">
+                  <p className="cookingTime">
+                    <span>
+                      <img src={timerIcon} className="icon"></img>
+                    </span>
+                    30 Minutes
+                  </p>
+                  <p className="foodCatagory">
+                    <span>
+                      <img src={foodCatagoryIcon} className="icon"></img>
+                    </span>
+                    Snack
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="recipeInfo">
-              <p className="recipeName">
-                Big and Juicy Wagyu Beef Cheeseburger
-              </p>
-              <div className="foodMoreInfo">
-                <p className="cookingTime">
-                  <span>
-                    <img src={timerIcon} className="icon"></img>
-                  </span>
-                  30 Minutes
+          </a>
+          <a href="/recipeDetail">
+            <div className="recipeCard">
+              <div className="imageArea">
+                <img src={foodImage} className="recipeImage"></img>
+                <div className="likeIconWrapper">
+                  <img src={likeIcon}></img>
+                </div>
+              </div>
+              <div className="recipeInfo">
+                <p className="recipeName">
+                  Big and Juicy Wagyu Beef Cheeseburger
                 </p>
-                <p className="foodCatagory">
-                  <span>
-                    <img src={foodCatagoryIcon} className="icon"></img>
-                  </span>
-                  Snack
-                </p>
+                <div className="foodMoreInfo">
+                  <p className="cookingTime">
+                    <span>
+                      <img src={timerIcon} className="icon"></img>
+                    </span>
+                    30 Minutes
+                  </p>
+                  <p className="foodCatagory">
+                    <span>
+                      <img src={foodCatagoryIcon} className="icon"></img>
+                    </span>
+                    Snack
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="recipeCard">
-            <div className="imageArea">
-              <img src={foodImage} className="recipeImage"></img>
-              <div className="likeIconWrapper">
-                <img src={likeIcon}></img>
+          </a>
+          <a href="/recipeDetail">
+            <div className="recipeCard">
+              <div className="imageArea">
+                <img src={foodImage} className="recipeImage"></img>
+                <div className="likeIconWrapper">
+                  <img src={likeIcon}></img>
+                </div>
+              </div>
+              <div className="recipeInfo">
+                <p className="recipeName">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+                <div className="foodMoreInfo">
+                  <p className="cookingTime">
+                    <span>
+                      <img src={timerIcon} className="icon"></img>
+                    </span>
+                    30 Minutes
+                  </p>
+                  <p className="foodCatagory">
+                    <span>
+                      <img src={foodCatagoryIcon} className="icon"></img>
+                    </span>
+                    Snack
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="recipeInfo">
-              <p className="recipeName">
-                Big and Juicy Wagyu Beef Cheeseburger
-              </p>
-              <div className="foodMoreInfo">
-                <p className="cookingTime">
-                  <span>
-                    <img src={timerIcon} className="icon"></img>
-                  </span>
-                  30 Minutes
+          </a>
+          <a href="/recipeDetail">
+            <div className="recipeCard">
+              <div className="imageArea">
+                <img src={foodImage} className="recipeImage"></img>
+                <div className="likeIconWrapper">
+                  <img src={likeIcon}></img>
+                </div>
+              </div>
+              <div className="recipeInfo">
+                <p className="recipeName">
+                  Big and Juicy Wagyu Beef Cheeseburger
                 </p>
-                <p className="foodCatagory">
-                  <span>
-                    <img src={foodCatagoryIcon} className="icon"></img>
-                  </span>
-                  Snack
-                </p>
+                <div className="foodMoreInfo">
+                  <p className="cookingTime">
+                    <span>
+                      <img src={timerIcon} className="icon"></img>
+                    </span>
+                    30 Minutes
+                  </p>
+                  <p className="foodCatagory">
+                    <span>
+                      <img src={foodCatagoryIcon} className="icon"></img>
+                    </span>
+                    Snack
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="recipeCard">
-            <div className="imageArea">
-              <img src={foodImage} className="recipeImage"></img>
-              <div className="likeIconWrapper">
-                <img src={likeIcon}></img>
+          </a>
+          <a href="/recipeDetail">
+            <div className="recipeCard">
+              <div className="imageArea">
+                <img src={foodImage} className="recipeImage"></img>
+                <div className="likeIconWrapper">
+                  <img src={likeIcon}></img>
+                </div>
+              </div>
+              <div className="recipeInfo">
+                <p className="recipeName">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+                <div className="foodMoreInfo">
+                  <p className="cookingTime">
+                    <span>
+                      <img src={timerIcon} className="icon"></img>
+                    </span>
+                    30 Minutes
+                  </p>
+                  <p className="foodCatagory">
+                    <span>
+                      <img src={foodCatagoryIcon} className="icon"></img>
+                    </span>
+                    Snack
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="recipeInfo">
-              <p className="recipeName">
-                Big and Juicy Wagyu Beef Cheeseburger
-              </p>
-              <div className="foodMoreInfo">
-                <p className="cookingTime">
-                  <span>
-                    <img src={timerIcon} className="icon"></img>
-                  </span>
-                  30 Minutes
+          </a>
+          <a href="/recipeDetail">
+            <div className="recipeCard">
+              <div className="imageArea">
+                <img src={foodImage} className="recipeImage"></img>
+                <div className="likeIconWrapper">
+                  <img src={likeIcon}></img>
+                </div>
+              </div>
+              <div className="recipeInfo">
+                <p className="recipeName">
+                  Big and Juicy Wagyu Beef Cheeseburger
                 </p>
-                <p className="foodCatagory">
-                  <span>
-                    <img src={foodCatagoryIcon} className="icon"></img>
-                  </span>
-                  Snack
-                </p>
+                <div className="foodMoreInfo">
+                  <p className="cookingTime">
+                    <span>
+                      <img src={timerIcon} className="icon"></img>
+                    </span>
+                    30 Minutes
+                  </p>
+                  <p className="foodCatagory">
+                    <span>
+                      <img src={foodCatagoryIcon} className="icon"></img>
+                    </span>
+                    Snack
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="recipeCard">
-            <div className="imageArea">
-              <img src={foodImage} className="recipeImage"></img>
-              <div className="likeIconWrapper">
-                <img src={likeIcon}></img>
+          </a>
+          <a href="/recipeDetail">
+            <div className="recipeCard">
+              <div className="imageArea">
+                <img src={foodImage} className="recipeImage"></img>
+                <div className="likeIconWrapper">
+                  <img src={likeIcon}></img>
+                </div>
+              </div>
+              <div className="recipeInfo">
+                <p className="recipeName">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p>
+                <div className="foodMoreInfo">
+                  <p className="cookingTime">
+                    <span>
+                      <img src={timerIcon} className="icon"></img>
+                    </span>
+                    30 Minutes
+                  </p>
+                  <p className="foodCatagory">
+                    <span>
+                      <img src={foodCatagoryIcon} className="icon"></img>
+                    </span>
+                    Snack
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="recipeInfo">
-              <p className="recipeName">
-                Big and Juicy Wagyu Beef Cheeseburger
-              </p>
-              <div className="foodMoreInfo">
-                <p className="cookingTime">
-                  <span>
-                    <img src={timerIcon} className="icon"></img>
-                  </span>
-                  30 Minutes
+          </a>
+          <a href="/recipeDetail">
+            <div className="recipeCard">
+              <div className="imageArea">
+                <img src={foodImage} className="recipeImage"></img>
+                <div className="likeIconWrapper">
+                  <img src={likeIcon}></img>
+                </div>
+              </div>
+              <div className="recipeInfo">
+                <p className="recipeName">
+                  Big and Juicy Wagyu Beef Cheeseburger
                 </p>
-                <p className="foodCatagory">
-                  <span>
-                    <img src={foodCatagoryIcon} className="icon"></img>
-                  </span>
-                  Snack
-                </p>
+                <div className="foodMoreInfo">
+                  <p className="cookingTime">
+                    <span>
+                      <img src={timerIcon} className="icon"></img>
+                    </span>
+                    30 Minutes
+                  </p>
+                  <p className="foodCatagory">
+                    <span>
+                      <img src={foodCatagoryIcon} className="icon"></img>
+                    </span>
+                    Snack
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="recipeCard">
-            <div className="imageArea">
-              <img src={foodImage} className="recipeImage"></img>
-              <div className="likeIconWrapper">
-                <img src={likeIcon}></img>
-              </div>
-            </div>
-            <div className="recipeInfo">
-              <p className="recipeName">
-                Big and Juicy Wagyu Beef Cheeseburger
-              </p>
-              <div className="foodMoreInfo">
-                <p className="cookingTime">
-                  <span>
-                    <img src={timerIcon} className="icon"></img>
-                  </span>
-                  30 Minutes
-                </p>
-                <p className="foodCatagory">
-                  <span>
-                    <img src={foodCatagoryIcon} className="icon"></img>
-                  </span>
-                  Snack
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="recipeCard">
-            <div className="imageArea">
-              <img src={foodImage} className="recipeImage"></img>
-              <div className="likeIconWrapper">
-                <img src={likeIcon}></img>
-              </div>
-            </div>
-            <div className="recipeInfo">
-              <p className="recipeName">
-                Big and Juicy Wagyu Beef Cheeseburger
-              </p>
-              <div className="foodMoreInfo">
-                <p className="cookingTime">
-                  <span>
-                    <img src={timerIcon} className="icon"></img>
-                  </span>
-                  30 Minutes
-                </p>
-                <p className="foodCatagory">
-                  <span>
-                    <img src={foodCatagoryIcon} className="icon"></img>
-                  </span>
-                  Snack
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="recipeCard">
-            <div className="imageArea">
-              <img src={foodImage} className="recipeImage"></img>
-              <div className="likeIconWrapper">
-                <img src={likeIcon}></img>
-              </div>
-            </div>
-            <div className="recipeInfo">
-              <p className="recipeName">
-                Big and Juicy Wagyu Beef Cheeseburger
-              </p>
-              <div className="foodMoreInfo">
-                <p className="cookingTime">
-                  <span>
-                    <img src={timerIcon} className="icon"></img>
-                  </span>
-                  30 Minutes
-                </p>
-                <p className="foodCatagory">
-                  <span>
-                    <img src={foodCatagoryIcon} className="icon"></img>
-                  </span>
-                  Snack
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="recipeCard">
-            <div className="imageArea">
-              <img src={foodImage} className="recipeImage"></img>
-              <div className="likeIconWrapper">
-                <img src={likeIcon}></img>
-              </div>
-            </div>
-            <div className="recipeInfo">
-              <p className="recipeName">
-                Big and Juicy Wagyu Beef Cheeseburger
-              </p>
-              <div className="foodMoreInfo">
-                <p className="cookingTime">
-                  <span>
-                    <img src={timerIcon} className="icon"></img>
-                  </span>
-                  30 Minutes
-                </p>
-                <p className="foodCatagory">
-                  <span>
-                    <img src={foodCatagoryIcon} className="icon"></img>
-                  </span>
-                  Snack
-                </p>
-              </div>
-            </div>
-          </div>
+          </a>
           <div className="ads">
             <p className="adsHeader">Don’t forget to eat healthy food</p>
             <img src={adsImage} className="adsImg"></img>
